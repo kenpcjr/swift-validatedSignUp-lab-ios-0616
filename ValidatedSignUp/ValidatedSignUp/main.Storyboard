@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uC3-1d-UKF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uC3-1d-UKF">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -106,10 +106,18 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="iEG-2m-S7q" id="5uo-7s-Iek"/>
+                        <outlet property="firstNameTextField" destination="PEH-Ca-1lh" id="5A3-Sw-tJG"/>
+                        <outlet property="lastNameTextField" destination="afg-Cl-HbV" id="cvS-vd-KzH"/>
+                        <outlet property="passwordTextField" destination="eow-Z9-bNG" id="3xU-eD-IXX"/>
+                        <outlet property="signUpButton" destination="I50-a8-2vB" id="YmK-Jw-dq1"/>
+                        <outlet property="userNameTextField" destination="Ok9-R3-Aqh" id="BWy-if-ad9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSc-YJ-aRR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="499"/>
+            <point key="canvasLocation" x="274" y="289"/>
         </scene>
     </scenes>
     <resources>
